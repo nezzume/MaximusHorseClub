@@ -1,0 +1,18 @@
+
+.about_green_number {
+    color: #008139;
+    font-family: "Philosopher-Bold";
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 67px;
+}
+.about span {
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 500;
+}
+.about-text-block {
+    font-size: 15px;
+    line-height: 28px;
+    color: #7E7E7E;
+}
