@@ -16,63 +16,87 @@
 </head>
 
 <body>
-    <header>
-        <div>
-            <picture>
-                <source srcset="./image/header/logo1_small.png" media="(max-width: 480px)">
-                <source srcset="./image/header/logo1_medium.png" media="(max-width: 768px)">
-                <img src="./image/header/logo1.png" alt="Maximus Horse Club logo" title="Maximus Horse Club logo">
-            </picture>
+    <header class="header">
+        <div class="header_top">
+            <nav class="nav">
+                <picture>
+                    <source srcset="./image/header/logo1_small.png" media="(max-width: 480px)">
+                    <source srcset="./image/header/logo1_medium.png" media="(max-width: 768px)">
+                    <img src="./image/header/logo1.png" alt="Maximus Horse Club logo" title="Maximus Horse Club logo">
+                </picture>
+                <div class="nav_links">
+                    <a href="#about" class="active">О НАС</a>
+                    <a href="#pricelist">УСЛУГИ И ЦЕНЫ</a>
+                    <a href="#gallery">ФОТОАЛЬБОМ</a>
+                    <a href="#contacts">КОНТАКТЫ</a>
+                </div>
+                <div class="nav_phone">
+                    <picture>
+                        <source srcset="./image/header/tel_icon_10px.png" media="(max-width: 480px)">
+                        <source srcset="./image/header/tel_icon_10px.png" media="(max-width: 768px)">
+                        <img src="./image/header/tel_icon_16px.png" alt="...">
+                    </picture>
+                    <button class="btn_phone">+7 (000) 000-00-00</button>
+                    <p>Ежедневно 9:00 – 22:00</p>
+                </div>
         </div>
-        <nav>
-            <a href="#about">О НАС</a>
-            <a href="#pricelist">УСЛУГИ И ЦЕНЫ</a>
-            <a href="#gallery">ФОТОАЛЬБОМ</a>
-            <a href="#contacts">КОНТАКТЫ</a>
-            <picture>
-                <source srcset="./image/header/tel_icon_10px.png" media="(max-width: 480px)">
-                <source srcset="./image/header/tel_icon_10px.png" media="(max-width: 768px)">
-                <img src="./image/header/tel_icon_16px.png" alt="...">
-            </picture>
-            <button class="btn-phone">+7 (000) 000-00-00</button>
-            <p class="header-text">Ежедневно 9:00 – 22:00</p>
         </nav>
-        <section>
+        <div class="header_img_leftBush">
+            <img src="./image/header/header_bushLeft.png" alt="image">
+        </div>
+
+        <div class="header_img_horse">
+            <img src="./image/header/header_horse.png" alt="image">
+        </div>
+
+        <div class="header_img_rightBush">
+            <img src="./image/header/header_bushRight.png" alt="image">
+        </div>
+        <div class="header_img_sea-gull">
+            <img src="./image/header/sea-gull.png" alt="image">
+        </div>
+
+        <section class="title_block">
             <h1>Окунитесь в мир <br>лошадей вместе с нами</h1>
-            <p class="title-text">
+            <p>
                 - Уроки верховой езды, фотосессии и мероприятия<br>
                 в частном конном клубе <strong>г. Санкт-Петербург</strong>
             </p>
-            <button class="standard_btn">записаться</button>
+            <button class="standard_btn standard-text-btn">записаться</button>
         </section>
     </header>
 
     <main>
-        <section class="about" id="about">
+        <section class="aboutClub" id="about">
             <h2>О нашем клубе</h2>
-            <div>
-                <picture>
-                    <source srcset="./image/header/jump_horse_768.jpg" media="(max-width: 768px" )>
-                    <source srcset="./image/header/jump_horse_1000.jpg" media="(max-width: 1000px" )>
-                    <img src="./image/header/jump_horse_1920.jpg" alt="Jumpimg horse" title="Jumpimg horse">
+            <section>
+                <div class="jump_horse">
+                    <picture>
+                        <source srcset="./image/header/jump_horse_768.jpg" media="(max-width: 768px" )>
+                        <source srcset="./image/header/jump_horse_1000.jpg" media="(max-width: 1000px" )>
+                        <img src="./image/header/jump_horse_1920.jpg" alt="Jumpimg horse" title="Jumpimg horse">
                     </picture>
+                </div>
                 <p>
-                <p class="about_green_number">1100+</p>
-                <span>Довольных посетителей<br>за последний год</span>
-                </p>
-                <p>
-                <p class="about_green_number">50+</p>
-                <span>Проведенных мероприятий<br>за 6 месяцев</span>
-                </p>
-                <p>
-                <p class="about_green_number">20+</p>
-                <span>Выпущенных<br> профессиональных<br>спортсменов за 1 год</span>
-                </p>
-                <p>
-                <p class="about_green_number">15+</p>
-                <span>Регулярных занятий<br> в неделю с профессиональными<br>наставниками</span>
-                </p>
-                <p class="about-text-block">
+                <div class="aboutClub_container">
+                    <p class="about_green_number">1100+</p>
+                    <span>Довольных посетителей<br>за последний год</span>
+                    </p>
+                    <p>
+                    <p class="about_green_number">50+</p>
+                    <span>Проведенных мероприятий<br>за 6 месяцев</span>
+                    </p>
+                    <p>
+                    <p class="about_green_number">20+</p>
+                    <span>Выпущенных<br> профессиональных<br>спортсменов за 1 год</span>
+                    </p>
+                    <p>
+                    <p class="about_green_number">15+</p>
+                    <span>Регулярных занятий<br> в неделю с профессиональными<br>наставниками</span>
+                    </p>
+                </div>
+
+                <p class="aboutClub_text_block">
                     Занятия проводятся индивидуально и в группах, стоимость также будет<br>
                     зависеть от ваших навыков и умений. Более выгодные условия<br>
                     предусмотрены для регулярных занятий при покупке абонементов.<br>
@@ -82,11 +106,11 @@
                     пони-клубы, где ребята учатся ухаживать за животными и ездить на милых<br>
                     и добрых пони.
                 </p>
-            </div>
+            </section>
         </section>
-        <section>
+        <section class="benefits">
             <h2>Почему нас выбирают</h2>
-            <p>Подзаголовок блока</p>
+            <p class="subtitle">Подзаголовок блока</p>
             <div>
                 <div>
                     <div>
@@ -159,7 +183,7 @@
         </section>
         <section id="pricelist">
             <h2>Направления клуба</h2>
-            <p>Подзаголовок блока</p>
+            <p class="subtitle">Подзаголовок блока</p>
             <div>
                 <div>
                     <p>Уроки верховой езды</p>
@@ -243,7 +267,7 @@
             <div class="dot_navigation">
                 <button><img src="image/dot_navigation/left_btn.png" alt=""></button>
                 <img src="image/dot_navigation/Inactive.png" alt="">
-                <img src="image/dot_navigation/Active.png" alt=""class="active_dot_navigation">
+                <img src="image/dot_navigation/Active.png" alt="" class="active_dot_navigation">
                 <img src="image/dot_navigation/Inactive.png" alt="">
                 <img src="image/dot_navigation/Inactive.png" alt="">
                 <button><img src="image/dot_navigation/right_btn.png" alt=""></button>
@@ -315,9 +339,9 @@
             </article>
             <div class="dot_navigation">
                 <button><img src="image/dot_navigation/left_btn.png" alt=""></button>
-                <img src="image/dot_navigation/Inactive.png" alt="" >
                 <img src="image/dot_navigation/Inactive.png" alt="">
-                <img src="image/dot_navigation/Active.png" alt=""class="active_dot_navigation">
+                <img src="image/dot_navigation/Inactive.png" alt="">
+                <img src="image/dot_navigation/Active.png" alt="" class="active_dot_navigation">
                 <img src="image/dot_navigation/Inactive.png" alt="">
                 <button><img src="image/dot_navigation/right_btn.png" alt=""></button>
             </div>
@@ -361,8 +385,8 @@
             </div>
         </section>
     </main>
-    <footer>
-        <div>
+    <footer class="footer">
+        <nav class="footer_nav">
             <picture>
                 <source srcset="./image/footer/logo2_small.png" media="(max-width: 768px)">
                 <img src="./image/footer/logo2.png" alt="Maximus Horse Club logo" title="Maximus Horse Club logo">

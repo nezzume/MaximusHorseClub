@@ -1,0 +1,41 @@
+.aboutClub {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.aboutClub h2 {
+    margin-top: 0px;
+    margin-bottom: 89px;
+}
+.jump_horse {
+    width: 871px;
+    height: 529px;
+    left: 145px;
+
+}
+.aboutClub_container {
+    display: inline-grid;
+    max-width: 1920px;
+    grid-template-columns: auto auto;
+}
+.about_green_number {
+    color: #008139;
+    font-family: "Philosopher-Regular";
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 67px;
+}
+.about span {
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 500;
+}
+.aboutClub_text_block {
+    font-size: 15px;
+    line-height: 28px;
+    color: #7E7E7E;
+}
+.benefits {
+
+}

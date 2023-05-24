@@ -1,0 +1,73 @@
+footer {
+    width: 1920px;
+    min-height: 788px;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    background-color: #0B0B0B;
+    background-image: url("/image/footer/footer_background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.footer_nav {
+    display: flex;
+    min-height: 138px;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 57px;
+    background-color: #0B0B0B;
+    margin-top: 651px;
+    
+}
+
+.btn-call {
+    width: 201px;
+    height: 46px;
+    background-color: #0B0B0B;
+    color: #F5F5F5;
+    border: 1px solid #FDE724;
+    border-radius: 10px;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.btn-pda {
+    width: 301px;
+    height: 15px;
+    background-color: #0B0B0B;
+    color: #7D808A;
+    border: none;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration: underline;
+    margin-bottom: 49px;
+}
+
+.btn-policy {
+    width: 203px;
+    height: 15px;
+    background-color: #0B0B0B;
+    color: #7D808A;
+    border: none;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration: underline;
+    margin-bottom: 49px;
+}
+
+.menu-links a {
+    display: inline;
+    text-decoration: none;
+    color: #EAEAEA;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+
+/* .logo2 {
+    width: 159px;
+    height: 48px;
+    margin-top: 24px;
+    margin-left: 376px;
+} */

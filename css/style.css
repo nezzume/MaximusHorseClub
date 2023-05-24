@@ -3,7 +3,95 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* @font-face {
-    font-family: ;
-    src: url();
-} */
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Philosopher-Regular";
+    src: url(/fonts/Philosopher-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url(/fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "AlegreyaSans-Regular";
+    src: url(/fonts/AlegreyaSans-Regular.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Roboto-Regular";
+    background-color: #FFFFFF;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+.standard_btn {
+    width: 270px;
+    height: 70px;
+    background: linear-gradient(180deg, #9BCFFF 0%, #FFF383 0.01%, #FFC700 100%);
+    box-shadow: 0px 4px 0px #C89C00;
+    border-radius: 5px;
+    border: none;
+    padding: 21px 75px;
+    margin-bottom: 49px;
+    display: flex;
+    align-items: center;
+}
+
+.standard_btn:hover {
+    background: linear-gradient(180deg, #9BCFFF 0%, #FFE456 0.01%, #FFB800 100%);
+}
+
+.standard_btn:active {
+    background: linear-gradient(0deg, #9BCFFF 0%, #FFE456 0.01%, #FFB800 100%);
+    box-shadow: 0px -4px 0px #C89C00;
+}
+
+.standard-text-btn {
+    font-size: 15px;
+    font-family: "Montserrat-SemiBold";
+    line-height: 32px;
+    text-align: center;
+    color: #6A5300;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+}
+
+.greenline {
+    width: 42px;
+    height: 0px;
+    border: 1px solid #008139;
+}
+
+h1 {
+    font-size: 57px;
+    line-height: 61px;
+    font-family: "Philosopher-Regular";
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 36px;
+    font-family: "Philosopher-Regular";
+    color: #363434;
+    text-align: center;
+}
+.subtitle {
+    color: #363434;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+}
